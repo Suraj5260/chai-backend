@@ -1,16 +1,21 @@
 {
-  "name": "chai-aur-backend",
-  "version": "1.0.0",
-  "description": "a backend follwing the videos of Chai aur Backend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "javascript",
-    "backend",
-    "chai"
-  ],
-  "author": "Suraj Telrandhe",
-  "license": "ISC"
+	"name": "chai-aur-backend",
+	"version": "1.0.0",
+	"description": "a backend follwing the videos of Chai aur Backend",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"keywords": [
+		"javascript",
+		"backend",
+		"chai"
+	],
+	"author": "Suraj Telrandhe",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
 }
+
